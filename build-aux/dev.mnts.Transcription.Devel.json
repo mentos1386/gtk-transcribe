@@ -1,7 +1,7 @@
 {
     "id": "dev.mnts.Transcription.Devel",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -12,6 +12,7 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
+        "--socket=pulseaudio",
         "--device=dri",
         "--env=RUST_LOG=gtk_transcription=debug",
         "--env=G_MESSAGES_DEBUG=none",

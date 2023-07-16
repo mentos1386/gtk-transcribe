@@ -1,6 +1,6 @@
 mod application;
-#[rustfmt::skip]
 mod config;
+mod whisper;
 mod window;
 
 use gettextrs::{gettext, LocaleCategory};
