@@ -1,0 +1,6 @@
+data/dev.mnts.Transcription.desktop.in.in
+data/dev.mnts.Transcription.gschema.xml.in
+data/dev.mnts.Transcription.metainfo.xml.in.in
+data/resources/ui/shortcuts.ui
+data/resources/ui/window.ui
+src/application.rs
