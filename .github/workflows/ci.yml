@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions-rs/toolchain@v1
+      - uses: https://github.com/actions-rs/toolchain@v1
         with:
           profile: minimal
           toolchain: stable
@@ -26,11 +26,11 @@ jobs:
     name: Flatpak
     runs-on: ubuntu-latest
     container:
-      image: bilelmoussaoui/flatpak-github-actions:gnome-44
+      image: https://github.com/bilelmoussaoui/flatpak-github-actions:gnome-44
       options: --privileged
     steps:
     - uses: actions/checkout@v3
-    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v6
+    - uses: https://github.com/bilelmoussaoui/flatpak-github-actions/flatpak-builder@v6
       with:
         bundle: gtk-transcription.flatpak
         manifest-path: build-aux/dev.mnts.Transcription.Devel.json
