@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: https://github.com/actions-rs/toolchain@v1
+      - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
           toolchain: stable
@@ -30,9 +30,10 @@ jobs:
       options: --privileged
     steps:
     - uses: actions/checkout@v3
-    - uses: https://github.com/bilelmoussaoui/flatpak-github-actions/flatpak-builder@v6
+    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v6
       with:
         bundle: gtk-transcription.flatpak
         manifest-path: build-aux/dev.mnts.Transcription.Devel.json
         run-tests: true
         cache-key: flatpak-builder-${{ github.sha }}
+
