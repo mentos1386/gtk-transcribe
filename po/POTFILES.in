@@ -1,6 +1,13 @@
 data/dev.mnts.Transcription.desktop.in.in
 data/dev.mnts.Transcription.gschema.xml.in
 data/dev.mnts.Transcription.metainfo.xml.in.in
+
+# find src -name "*.ui" -print
 data/resources/ui/shortcuts.ui
 data/resources/ui/window.ui
+
+# find src -name "*.blp" -print
+
+# grep gettext src/**/*.rs | cut -d: -f1 | uniq
 src/application.rs
+src/main.rs

@@ -3,12 +3,11 @@
 <component type="desktop-application">
   <id>@app-id@</id>
   <metadata_license>CC0</metadata_license>
-  <!-- Insert your license of choice here -->
-  <!-- <project_license>MIT</project_license> -->
+  <project_license>GPL-3.0-only</project_license>
   <name>Transcription</name>
-  <summary>Automated Voice Transcription</summary>
+  <summary>Transcription of voice using Whisper by OpenAI.</summary>
   <description>
-    <p>Transcription of voice using Whisper by OpenAI.</p>
+    <p>Longer description.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -16,8 +15,8 @@
       <caption>Main window</caption>
     </screenshot>
   </screenshots>
-  <url type="homepage">https://gitlab.gnome.org/bilelmoussaoui/gtk-transcription</url>
-  <url type="bugtracker">https://gitlab.gnome.org/bilelmoussaoui/gtk-transcription/issues</url>
+  <url type="homepage">https://github.com/mentos1386/gtk-transcription</url>
+  <url type="bugtracker">https://github.com/mentos1386/gtk-transcription</url>
   <content_rating type="oars-1.0"/>
   <releases>
     <release version="0.1.0" date="2019-07-11"/>

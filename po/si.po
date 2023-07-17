@@ -1,0 +1,75 @@
+#: data/dev.mnts.Transcription.desktop.in.in:3
+#: data/dev.mnts.Transcription.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:27 src/main.rs:21
+msgid "Transcription"
+msgstr "Transkripcija"
+
+#: data/dev.mnts.Transcription.desktop.in.in:4
+#: data/dev.mnts.Transcription.metainfo.xml.in.in:8
+msgid "Transcription of voice using Whisper by OpenAI."
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/dev.mnts.Transcription.desktop.in.in:10
+msgid "Gnome;GTK;"
+msgstr ""
+
+#: data/dev.mnts.Transcription.gschema.xml.in:6
+msgid "Window width"
+msgstr ""
+
+#: data/dev.mnts.Transcription.gschema.xml.in:10
+msgid "Window height"
+msgstr ""
+
+#: data/dev.mnts.Transcription.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr ""
+
+#: data/dev.mnts.Transcription.metainfo.xml.in.in:10
+msgid "Longer description."
+msgstr ""
+
+#: data/dev.mnts.Transcription.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr ""
+
+#: data/dev.mnts.Transcription.metainfo.xml.in.in:32
+msgid "Tine Jozelj"
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/resources/ui/window.ui:6
+msgid "Preferences"
+msgstr ""
+
+#: data/resources/ui/window.ui:10
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/resources/ui/window.ui:14
+#, fuzzy
+msgid "About Transcription"
+msgstr "O Transkripciji"
+
+#: data/resources/ui/window.ui:40
+msgid "Hello world!"
+msgstr "Pozdravljen svet!"
+
+#: src/application.rs:120
+msgid "translator-credits"
+msgstr ""
